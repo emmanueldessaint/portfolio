@@ -1,0 +1,26 @@
+.engrenage1{
+    width:800px;
+    
+}
+
+ 
+/* .rotate {
+    animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+} */
+
+.img-laravel{
+    width:200px;
+}
+.p-laravel{
+    margin-left: 100px;
+    font-weight:bold;
+    color:rgb(80, 80, 80)
+}

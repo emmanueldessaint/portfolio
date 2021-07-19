@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/polices/lato/Lato-Regular.ttf" /> -->
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/haut-de-page.css" />
+    <link rel="stylesheet" href="css/projets.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/competences.css" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Emmanuel_Dessaint</title>
+</head>
+
+<body>
+    <!-- <header>
+        <div class="d-flex flex-row">
+            <div class=" d-flex flex-row div-typewriter" >               
+                <div class="fleche-gauche mr-2"></div>                                
+                <h4></h4>
+                <div class="type-writer-animation"></div>
+                <div class="barre-fleche ml-2"></div>
+                <div class="fleche-droite"></div>                            
+            </div>
+            <div class="menu d-flex flex-row">
+                <p>truc</p>
+                <p>truc</p>
+                <p>truc</p>
+                <p>truc</p>
+            </div>
+        </div>
+    </header> -->
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark static-top menu-nav">
+        <div class="container mt-2">
+            <div class=" d-flex flex-row div-typewriter" >               
+                <div class="fleche-gauche mr-2"></div>                                
+                <h4></h4>
+                <div class="type-writer-animation"></div>
+                <div class="barre-fleche ml-2"></div>
+                <div class="fleche-droite"></div>                            
+            </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-white texte-menu" href="#">Emmanuel Dessaint
+                      <span class="sr-only">(current)</span>
+                    </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white texte-menu" href="#">Projets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white texte-menu" href="#">Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white texte-menu" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <img src="img/fond-3.png" class="image-de-fond-1">
+    <!-- <img src="img/fond-3.png" class="image-de-fond-2"> -->
+    <div class="context ">
+        <div class="haut-de-page ">           
+            <div class=" div-icones-haut-de-page ">
+                
+                    <div class="d-flex competences mt-5">
+                        <img src="img/Capture1-rognée.PNG" class="perspective">
+                    </div>            
+                    <div class="d-flex justify-content-center competences flex-column ml-5 mt-5">
+                        <img src="img/capture-interieur-engrenage1.PNG" class="img-laravel">
+                        <div class="d-flex justify-content-center flex-column img-laravel">
+                            <p class="p-laravel">Front & Back : PHP Laravel</p>               
+                        </div>                
+                    </div>    
+                
+            </div>
+            <div class="div-introduction-haut-de-page ">
+                <p class=" ml-5 mr-5 introduction">Développeur fullstack,  je recherche une alternance pour l'année 2021-2022</p>
+                <div id="arrowAnim">
+                    <div class="arrowSliding">
+                      <div class="arrow"></div>
+                    </div>
+                    <div class="arrowSliding delay1">
+                      <div class="arrow"></div>
+                    </div>
+                    <div class="arrowSliding delay2">
+                      <div class="arrow"></div>
+                    </div>
+                    <div class="arrowSliding delay3">
+                      <div class="arrow"></div>
+                    </div>
+                </div>
+            </div>                       
+        </div>
+
+        <!-- <div class="partie-competences d-flex justify-content-center">
+            <img src="img/Capture1-rognée.PNG">
+        </div> -->
+        <div class="partie-projets">
+            
+            <div class="menu-projets d-flex">
+                <div class="button1">bouton</div>
+                <div class="button">bouton</div>
+                <div class="button">bouton</div>
+            </div>
+            <img src="img/capture-interieur-engrenage1.PNG" class="projet-laravel">
+
+        </div>
+    </div>
+
+
+    
+        
+       
+   
+    
+</body>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+  var dataText = [ "HTML", "CSS", "Javascript", "PHP Laravel", "Node.Js"];
+//   var dataText = [ "HTML", ];
+  
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriter(text, i, fnCallback) {
+    // chekc if text isn't finished yet
+    if (i < (text.length)) {
+      // add next character to h1
+     document.querySelector("h4").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 100);
+    }
+    // text finished, call callback if there is a callback function
+    else if (typeof fnCallback == 'function') {
+      // call callback after timeout
+      setTimeout(fnCallback, 700);
+    }
+  }
+  // start a typewriter animation for a text in the dataText array
+   function StartTextAnimation(i) {
+     if (typeof dataText[i] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation(0);
+        }, 400000);
+     }
+     // check if dataText[i] exists
+    if (i < dataText[i].length) {
+      // text exists! start typewriter animation
+     typeWriter(dataText[i], 0, function(){
+       // after callback (and whole text has been animated), start next text
+       StartTextAnimation(i + 1);
+     });
+    }
+  }
+  // start the text animation
+  StartTextAnimation(0);
+});
+</script>

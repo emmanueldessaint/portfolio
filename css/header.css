@@ -1,0 +1,55 @@
+h4{
+    color:white;
+}
+.type-writer-animation{
+    width:10px;
+    height:1px;
+    background-color:rgb(255, 255, 255);
+    margin-top:22px;
+    margin-left:5px;
+    animation: clignoter 0.8s infinite linear;
+}
+
+
+@keyframes clignoter {
+    0%   { opacity:1; }
+  40%   {opacity:0; }
+  100% { opacity:1; }
+}
+.fleche-gauche{
+    margin-top:7px;
+    border-left: 5px solid; 
+    border-bottom: 5px solid;
+    height: 16px;
+    width: 16px;
+    transform: rotate(45deg);
+    color:white;
+}
+.fleche-droite{
+    margin-top:7px;
+    border-right: 5px solid; 
+    border-bottom: 5px solid;
+    height: 16px;
+    width: 16px;
+    transform: rotate(-45deg);
+    color:white;
+}
+.barre-fleche{
+    margin-right:-8px;
+    margin-top:12px;
+    width:22px;
+    height:4px;
+    transform: rotate(-70deg);
+    background:white;
+}
+.texte-menu{
+    font-size:1.2em;
+    text-shadow: 5px 5px 5px rgb(119, 119, 119);
+    margin:5px;   
+}
+
+.menu-nav{
+    background:#383838;
+    z-index:-2;
+    box-shadow: 10px 10px 1px 140px #383838;
+}
