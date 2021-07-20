@@ -1,18 +1,28 @@
-.partie-projets{
-    /* background:#1b4781; */
-    margin: 0 auto;
-    
+.partie-competences{
+    margin-top:400px;
 }
-.button1{
-    margin: 0 auto;
+@media only screen and (min-width: 1000px) {
+    .image-competences{
+        width:800px;
+    }
 }
-.projet-laravel{
-    margin: 0 auto;
-
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
+    .image-competences{
+        width:700px;
+    }
 }
-.engrenage1{
-    width:400px;
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+    .image-competences{
+        width:500px;
+    }
 }
-.projet-laravel{
-    /* width:400px; */
+@media only screen and (max-width: 600px) and (min-width: 450px) {
+    .image-competences{
+        width:420px;
+    }
+}
+@media only screen and (max-width: 450px)  {
+    .image-competences{
+        width:90%;
+    }
 }

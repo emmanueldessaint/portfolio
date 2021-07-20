@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="css/polices/lato/Lato-Regular.ttf" /> -->
     
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/haut-de-page.css" />
     <link rel="stylesheet" href="css/projets.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/competences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <script
       src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
       data-auto-a11y="true"
@@ -21,161 +21,143 @@
     <title>Emmanuel_Dessaint</title>
 </head>
 
-<body>
-    <!-- <header>
-        <div class="d-flex flex-row">
-            <div class=" d-flex flex-row div-typewriter" >               
-                <div class="fleche-gauche mr-2"></div>                                
-                <h4></h4>
-                <div class="type-writer-animation"></div>
-                <div class="barre-fleche ml-2"></div>
-                <div class="fleche-droite"></div>                            
+<body>   
+  <!-- <img src="img/fond-6.png" class="image-de-fond-header"> -->
+  <img src="img/fond-7.png" class="image-de-fond-1">
+  <div class="test-image"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark static-top menu-nav">
+      <div class="container mt-2">
+          <div class=" d-flex flex-row div-typewriter" >               
+              <div class="fleche-gauche mr-2"></div>                                
+              <h4></h4>
+              <div class="type-writer-animation"></div>
+              <div class="barre-fleche ml-2"></div>
+              <div class="fleche-droite"></div>                            
+          </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white texte-menu" href="#">Emmanuel Dessaint
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white texte-menu" href="#">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white texte-menu" href="#">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white texte-menu" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+    <!-- <img src="img/fond-3.png" class="image-de-fond-2"> -->
+  <div class="context ">
+    <div class="haut-de-page d-flex justify-content-around">           
+      <div class=" div-icones-haut-de-page competences">                
+        <div class="d-flex flex-column  mt-5 perspective">
+            <img src="img/Capture1-rognée.PNG" class="image-presentation ">                    
+            <img src="img/image2-P3.PNG" class="image-presentation mt-5 shadow-lg rounded">
+        </div>                                                                
+      </div>
+
+      <div class="div-introduction-haut-de-page ">
+        <p class=" ml-5 mr-5 introduction">Développeur fullstack,  je recherche une alternance pour l'année 2021-2022</p>
+        <div id="arrowAnim">
+            <div class="arrowSliding">
+              <div class="arrow"></div>
             </div>
-            <div class="menu d-flex flex-row">
-                <p>truc</p>
-                <p>truc</p>
-                <p>truc</p>
-                <p>truc</p>
+            <div class="arrowSliding delay1">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay2">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay3">
+              <div class="arrow"></div>
             </div>
         </div>
-    </header> -->
-
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark static-top menu-nav">
-        <div class="container mt-2">
-            <div class=" d-flex flex-row div-typewriter" >               
-                <div class="fleche-gauche mr-2"></div>                                
-                <h4></h4>
-                <div class="type-writer-animation"></div>
-                <div class="barre-fleche ml-2"></div>
-                <div class="fleche-droite"></div>                            
-            </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link text-white texte-menu" href="#">Emmanuel Dessaint
-                      <span class="sr-only">(current)</span>
-                    </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white texte-menu" href="#">Projets</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white texte-menu" href="#">Compétences</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white texte-menu" href="#">Contact</a>
-              </li>
-            </ul>
+      </div>                       
+    </div>
+      <!-- <div class="partie-competences d-flex justify-content-center">
+          <img src="img/Capture1-rognée.PNG">
+      </div> -->
+    <!-- <img src="img/fond-3.png" class="image-de-fond-3 w-100"> -->
+    <div class="partie-projets partie-projets">   
+      <div class="d-flex justify-content-center mt-2 mb-4">
+        <div class="radio ">          
+            <input label="HTML / CSS" type="radio" name="rotate-cube-side" value="front" checked class="bouton-radio" /> 
+            <input label="SEO / optimisation" type="radio" name="rotate-cube-side" value="right"  class="bouton-radio" />                    
+            <input label="Javascript" type="radio" name="rotate-cube-side" value="back"  class="bouton-radio" /> 
+            <input label="PHP Laravel" type="radio" name="rotate-cube-side" value="left"  class="bouton-radio" />                    
+            <input label="Node.JS / MongoDB" type="radio" name="rotate-cube-side" value="top"  class="bouton-radio" /> 
+            <input label="Vue.JS / MySQL" type="radio" name="rotate-cube-side" value="bottom"  class="bouton-radio" /> 
+                         
+        </div>  
+      </div>
+      
+      <div class="projets-a-montrer d-flex justify-content-center mt-4">
+        <div class="scene">
+          <div class="cube">
+            <img class="cube__face cube__face--front" src="img/capture-interieur-engrenage1.PNG">
+            <img class="cube__face cube__face--back" src="img/image-P2.PNG">
+            <img class="cube__face cube__face--right" src="img/image2-P3.PNG">
+            <img class="cube__face cube__face--left" src="img/capture-interieur-engrenage1.PNG">
+            <img class="cube__face cube__face--top" src="img/image-P4.PNG">
+            <div class="cube__face cube__face--bottom">bottom</div>
           </div>
         </div>
-    </nav>
-    <img src="img/fond-3.png" class="image-de-fond-1">
-    <!-- <img src="img/fond-3.png" class="image-de-fond-2"> -->
-    <div class="context ">
-        <div class="haut-de-page ">           
-            <div class=" div-icones-haut-de-page ">
-                
-                    <div class="d-flex competences mt-5">
-                        <img src="img/Capture1-rognée.PNG" class="perspective">
-                    </div>            
-                    <div class="d-flex justify-content-center competences flex-column ml-5 mt-5">
-                        <img src="img/capture-interieur-engrenage1.PNG" class="img-laravel">
-                        <div class="d-flex justify-content-center flex-column img-laravel">
-                            <p class="p-laravel">Front & Back : PHP Laravel</p>               
-                        </div>                
-                    </div>    
-                
-            </div>
-            <div class="div-introduction-haut-de-page ">
-                <p class=" ml-5 mr-5 introduction">Développeur fullstack,  je recherche une alternance pour l'année 2021-2022</p>
-                <div id="arrowAnim">
-                    <div class="arrowSliding">
-                      <div class="arrow"></div>
-                    </div>
-                    <div class="arrowSliding delay1">
-                      <div class="arrow"></div>
-                    </div>
-                    <div class="arrowSliding delay2">
-                      <div class="arrow"></div>
-                    </div>
-                    <div class="arrowSliding delay3">
-                      <div class="arrow"></div>
-                    </div>
-                </div>
-            </div>                       
-        </div>
-
-        <!-- <div class="partie-competences d-flex justify-content-center">
-            <img src="img/Capture1-rognée.PNG">
-        </div> -->
-        <div class="partie-projets">
-            
-            <div class="menu-projets d-flex">
-                <div class="button1">bouton</div>
-                <div class="button">bouton</div>
-                <div class="button">bouton</div>
-            </div>
-            <img src="img/capture-interieur-engrenage1.PNG" class="projet-laravel">
-
-        </div>
+      </div>
     </div>
 
+    <div class="partie-competences d-flex justify-content-center">
+      <img src="img/capture3.png" class="image-competences">
+    </div>
 
-    
-        
-       
-   
-    
+    <!-- <div class="d-flex partie-contact" id="contact">            
+      <div class="col-6 d-flex">               
+          <img src="img/ma-photo.png" alt="photo Emmanuel" class="allImg ma-photo" height="">
+          <div class="">                    
+              <div class="d-flex justify-content-between">                       
+              <a class="" href = "mailto: emmanueldessaint27220@gmail.com">
+                  <p class="">Mail</p>
+                  <div class="iconemail "><i class="fas fa-envelope-open-text icone"></i></div>                                                      
+              </a>
+              <a class="" href="https://www.linkedin.com/in/emmanuel-dessaint27/">
+                  <p class="">Linkedin</p>
+                  <div class="iconelinkedin"><i class="fab fa-linkedin icone"></i></div>
+              </a>
+              <a class="" href="https://github.com/Emmanuel-Dessaint">
+                  <p class="">Github</p>
+                  <div class="iconegithub"><i class="fab fa-github icone"></i></div>
+              </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-6">
+        <h4 class="">À propos de moi</h4>
+        <p class=" text-white">Après avoir obtenu un DUT GEA et une licence AES, 
+                    je me suis rendu compte que le milieu de l'administration n'était pas fait 
+                    pour moi. Ayant un gout prononcé pour les challenges et le monde de l'informatique
+                     j'ai décidé de me réorienter dans le développement web. J'ai pu acquérir de solides compétences grâce 
+                     à une formation d'OpenClasrooms, je suis désormais à la recherche d'une alternance pour 
+                     le mois de septembre 2021.                                                                               
+        </p>
+      </div>           
+    </div> -->
+  </div> 
+  <img src="img/fond-5.png" class="image-de-fond-contact">
+
+
 </body>
 
 
-<script>
-    document.addEventListener('DOMContentLoaded',function(event){
-  // array with texts to type in typewriter
-  var dataText = [ "HTML", "CSS", "Javascript", "PHP Laravel", "Node.Js"];
-//   var dataText = [ "HTML", ];
-  
-  // type one text in the typwriter
-  // keeps calling itself until the text is finished
-  function typeWriter(text, i, fnCallback) {
-    // chekc if text isn't finished yet
-    if (i < (text.length)) {
-      // add next character to h1
-     document.querySelector("h4").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
-
-      // wait for a while and call this function again for next character
-      setTimeout(function() {
-        typeWriter(text, i + 1, fnCallback)
-      }, 100);
-    }
-    // text finished, call callback if there is a callback function
-    else if (typeof fnCallback == 'function') {
-      // call callback after timeout
-      setTimeout(fnCallback, 700);
-    }
-  }
-  // start a typewriter animation for a text in the dataText array
-   function StartTextAnimation(i) {
-     if (typeof dataText[i] == 'undefined'){
-        setTimeout(function() {
-          StartTextAnimation(0);
-        }, 400000);
-     }
-     // check if dataText[i] exists
-    if (i < dataText[i].length) {
-      // text exists! start typewriter animation
-     typeWriter(dataText[i], 0, function(){
-       // after callback (and whole text has been animated), start next text
-       StartTextAnimation(i + 1);
-     });
-    }
-  }
-  // start the text animation
-  StartTextAnimation(0);
-});
-</script>
+<script src="js/typewriter.js"></script>
+<script src="js/cube.js"></script>

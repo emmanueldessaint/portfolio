@@ -1,6 +1,12 @@
 h4{
     color:white;
 }
+.image-de-fond-header{
+    width:100%;
+}
+.menu-nav{
+    
+}
 .type-writer-animation{
     width:10px;
     height:1px;
@@ -48,8 +54,3 @@ h4{
     margin:5px;   
 }
 
-.menu-nav{
-    background:#383838;
-    z-index:-2;
-    box-shadow: 10px 10px 1px 140px #383838;
-}
