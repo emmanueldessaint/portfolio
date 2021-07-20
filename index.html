@@ -12,19 +12,25 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/competences.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/img-fond.css" />
     <script
       src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
       data-auto-a11y="true"
     ></script>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Emmanuel_Dessaint</title>
 </head>
 
-<body>   
-  <!-- <img src="img/fond-6.png" class="image-de-fond-header"> -->
-  <img src="img/fond-7.png" class="image-de-fond-1">
-  <div class="test-image"></div>
+<body>  
+  <div style="background-image: url('img/fond-4.png');">
+  <div>
+    <img src="img/fond-8.png" class="image-de-fond-header">
+    
+  </div> 
   <nav class="navbar navbar-expand-lg navbar-dark static-top menu-nav">
       <div class="container mt-2">
           <div class=" d-flex flex-row div-typewriter" >               
@@ -45,13 +51,13 @@
                   </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white texte-menu" href="#">Projets</a>
+              <a class="nav-link text-white texte-menu" href="#projets">Projets</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white texte-menu" href="#">Compétences</a>
+              <a class="nav-link text-white texte-menu" href="#comp">Compétences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white texte-menu" href="#">Contact</a>
+              <a class="nav-link text-white texte-menu" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -62,8 +68,8 @@
     <div class="haut-de-page d-flex justify-content-around">           
       <div class=" div-icones-haut-de-page competences">                
         <div class="d-flex flex-column  mt-5 perspective">
-            <img src="img/Capture1-rognée.PNG" class="image-presentation ">                    
-            <img src="img/image2-P3.PNG" class="image-presentation mt-5 shadow-lg rounded">
+            <a href="#comp"><img src="img/capture1.1.png" class="image-presentation "></a>                  
+            <a href="#projets"><img src="img/image2-P3.png" class="image-presentation mt-5 shadow-lg rounded"></a>
         </div>                                                                
       </div>
 
@@ -89,7 +95,7 @@
           <img src="img/Capture1-rognée.PNG">
       </div> -->
     <!-- <img src="img/fond-3.png" class="image-de-fond-3 w-100"> -->
-    <div class="partie-projets partie-projets">   
+    <div class="partie-projets partie-projets" id="projets">   
       <div class="d-flex justify-content-center mt-2 mb-4">
         <div class="radio ">          
             <input label="HTML / CSS" type="radio" name="rotate-cube-side" value="front" checked class="bouton-radio" /> 
@@ -105,57 +111,68 @@
       <div class="projets-a-montrer d-flex justify-content-center mt-4">
         <div class="scene">
           <div class="cube">
-            <img class="cube__face cube__face--front" src="img/capture-interieur-engrenage1.PNG">
-            <img class="cube__face cube__face--back" src="img/image-P2.PNG">
-            <img class="cube__face cube__face--right" src="img/image2-P3.PNG">
-            <img class="cube__face cube__face--left" src="img/capture-interieur-engrenage1.PNG">
-            <img class="cube__face cube__face--top" src="img/image-P4.PNG">
-            <div class="cube__face cube__face--bottom">bottom</div>
+            <img class="cube__face cube__face--front" src="img/image-P2.png">
+            <img class="cube__face cube__face--back" src="img/image-p5.png">
+            <img class="cube__face cube__face--right" src="img/image-P4.png">
+            <img class="cube__face cube__face--left" src="img/capture-interieur-engrenage1.png">
+            <img class="cube__face cube__face--top" src="img/image-p6.png">
+            <img class="cube__face cube__face--bottom" src="img/image-p7.png">
           </div>
         </div>
       </div>
     </div>
 
-    <div class="partie-competences d-flex justify-content-center">
-      <img src="img/capture3.png" class="image-competences">
+    <div class="partie-competences d-flex  justify-content-center mb-5" id="comp">
+      <img src="img/capture3.1.png" class="image-competences">
+      <img src="img/capture3.2.png" class="image-competences2">
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+      <img src="img/capture3.3.png" class="image-competences2">
     </div>
 
-    <!-- <div class="d-flex partie-contact" id="contact">            
-      <div class="col-6 d-flex">               
-          <img src="img/ma-photo.png" alt="photo Emmanuel" class="allImg ma-photo" height="">
-          <div class="">                    
-              <div class="d-flex justify-content-between">                       
-              <a class="" href = "mailto: emmanueldessaint27220@gmail.com">
-                  <p class="">Mail</p>
+    
+    <img src="img/fond-10.png" class="image-de-fond-contact">
+    <div class=" rectangleContact" id="contact">    
+      
+      <div class="col-12  d-flex justify-content-around mt-4">               
+      <img src="img/ma-photo.png" alt="photo Emmanuel" class="allImg ma-photo ml-4" height="140">
+      <div class="me-contacter">                    
+          <div class=" d-flex flex-wrap justify-content-center ">                       
+              <a class="contactemail margincontact ml-5 mr-5" href = "mailto: emmanuel.dessaint1@gmail.com">
+                  <p class="textContact">Mail</p>
                   <div class="iconemail "><i class="fas fa-envelope-open-text icone"></i></div>                                                      
               </a>
-              <a class="" href="https://www.linkedin.com/in/emmanuel-dessaint27/">
-                  <p class="">Linkedin</p>
+              <a class="contactlinkedin margincontact ml-5 mr-5" href="https://www.linkedin.com/in/emmanuel-dessaint27/">
+                  <p class="textContact textContactLinkedin">Linkedin</p>
                   <div class="iconelinkedin"><i class="fab fa-linkedin icone"></i></div>
               </a>
-              <a class="" href="https://github.com/Emmanuel-Dessaint">
-                  <p class="">Github</p>
+              <a class="contactgithub margincontact ml-5 mr-5" href="https://github.com/Emmanuel-Dessaint">
+                  <p class="textContact">Github</p>
                   <div class="iconegithub"><i class="fab fa-github icone"></i></div>
               </a>
           </div>
-        </div>
       </div>
-      
-      <div class="col-6">
-        <h4 class="">À propos de moi</h4>
-        <p class=" text-white">Après avoir obtenu un DUT GEA et une licence AES, 
-                    je me suis rendu compte que le milieu de l'administration n'était pas fait 
-                    pour moi. Ayant un gout prononcé pour les challenges et le monde de l'informatique
-                     j'ai décidé de me réorienter dans le développement web. J'ai pu acquérir de solides compétences grâce 
-                     à une formation d'OpenClasrooms, je suis désormais à la recherche d'une alternance pour 
-                     le mois de septembre 2021.                                                                               
-        </p>
-      </div>           
-    </div> -->
+  </div>
+  <!-- <div class="col-0 col-xl-1 "></div> -->
+  <div class="col-12   mt-4 textapropos">
+      <h4 class="titreApropos mb-4">À propos de moi</h4>
+      <p class="paragrapheapropos ">Après avoir suivi une formation en tant que Développeur Web Junior sur Openclassrooms, je suis
+        désormais à la recherche d'une alternance qui débutera début septembre. Mes 6 projets Openclassrooms m'ont
+        apporté des bases solides concernant Javascript et ses frameworks. J'ai également réalisé une application
+        en PHP Laravel afin d'être plus polyvalent. 
+        Je suis aussi à l'aise en front-end qu'en back-end, si vous êtes intéressez par mon profil, n'hésitez pas à me contacter
+      afin que je vous présente mes projets.</p>                                                                    
+      </p>
+  </div>   
   </div> 
-  <img src="img/fond-5.png" class="image-de-fond-contact">
+  </div>
+  
+  
+    
+    
+ 
 
-
+</div>
 </body>
 
 
