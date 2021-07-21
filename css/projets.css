@@ -21,7 +21,7 @@
     
 }
 
-.radio input {
+/* .radio input {
 	width: 200px;
 	height:40px;
 	appearance: none;
@@ -32,15 +32,24 @@
 	background: #454857;
 	color: #bdbdbdbd;
 	font-size: 16px;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	transition: all 100ms linear;
     margin: 5px 5px 5px 5px;
-    box-shadow:2px 2px 5px rgb(41, 68, 133);
-     
-   
-    
+    box-shadow:2px 2px 5px rgb(41, 68, 133);   
+} */
+.bouton-radio{
+    width: 200px;
+	height:40px;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 2px;
+	padding: 8px 16px;
+	background: #454857;
+	color: #bdbdbdbd;
+	font-size: 16px;
+	transition: all 100ms linear;
+    margin: 5px 5px 5px 5px;
+    box-shadow:2px 2px 5px rgb(41, 68, 133); 
 }
 
 /* .radio input:checked {
