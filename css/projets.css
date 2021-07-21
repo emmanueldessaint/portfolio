@@ -44,7 +44,7 @@
 }
 
 .radio input:checked {
-	background-image: linear-gradient(180deg, #5ed357, #47c0a8);
+	background: linear-gradient(180deg, #5ed357, #47c0a8);
 	color: #fff;
 	box-shadow: 0 1px 1px #0000002e;
 	text-shadow: 0 1px 0px #79485f7a;
