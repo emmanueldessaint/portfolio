@@ -43,8 +43,16 @@
     
 }
 
-.radio input:checked {
+/* .radio input:checked {
 	background: linear-gradient(180deg, #5ed357, #47c0a8);
+	color: #fff;
+	box-shadow: 0 1px 1px #0000002e;
+	text-shadow: 0 1px 0px #79485f7a;
+    animation: clignoter2 1s infinite linear;
+    box-shadow:3px 3px 7px rgb(41, 68, 133);
+} */
+.bouton-radio:checked{
+    background: linear-gradient(180deg, #5ed357, #47c0a8);
 	color: #fff;
 	box-shadow: 0 1px 1px #0000002e;
 	text-shadow: 0 1px 0px #79485f7a;
@@ -108,12 +116,12 @@ body { font-family: sans-serif; }
   
 }
 
-.cube__face--front  { background: hsla(  0, 100%, 50%, 0.7); }
+/* .cube__face--front  { background: hsla(  0, 100%, 50%, 0.7); }
 .cube__face--right  { background: hsla( 60, 100%, 50%, 0.7); }
 .cube__face--back   { background: hsla(120, 100%, 50%, 0.7); }
 .cube__face--left   { background: hsla(180, 100%, 50%, 0.7); }
 .cube__face--top    { background: hsla(240, 100%, 50%, 0.7); }
-.cube__face--bottom { background: hsla(300, 100%, 50%, 0.7); }
+.cube__face--bottom { background: hsla(300, 100%, 50%, 0.7); } */
 
 .cube__face--front  { transform: rotateY(  0deg) translateZ(200px); }
 .cube__face--right  { transform: rotateY( 90deg) translateZ(200px); }
