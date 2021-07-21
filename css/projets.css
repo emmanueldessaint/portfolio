@@ -44,7 +44,7 @@
 	cursor: pointer;
 	border-radius: 2px;
 	padding: 8px 16px;
-	background: #454857;
+	background: rgb(69, 72, 87);
 	color: #bdbdbdbd;
 	font-size: 16px;
 	transition: all 100ms linear;
