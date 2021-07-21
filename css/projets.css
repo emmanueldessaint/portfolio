@@ -40,11 +40,13 @@
     width: 200px;
 	height:40px;
 	appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 	outline: none;
 	cursor: pointer;
 	border-radius: 2px;
 	padding: 8px 16px;
-	background: rgb(69, 72, 87) !important;
+	background-color: rgb(69, 72, 87);
 	color: #bdbdbdbd;
 	font-size: 16px;
 	transition: all 100ms linear;
