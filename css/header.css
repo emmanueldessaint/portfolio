@@ -44,8 +44,11 @@ h4{
     background:white;
 }
 .texte-menu{
-    font-size:1.2em;
-    text-shadow: 5px 5px 5px rgb(119, 119, 119);
+    font-size:1.6em;
+    /* text-shadow: 5px 5px 5px rgb(119, 119, 119); */
     margin:5px;   
+}
+.myFont{
+    font-family: Garamond, "Lucida Console", "Courier New", monospace;
 }
 
